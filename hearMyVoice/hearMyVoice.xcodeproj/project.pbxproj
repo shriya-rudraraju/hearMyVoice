@@ -17,6 +17,12 @@
 		BD60D2AB28986F7500B18173 /* hearMyVoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60D2AA28986F7500B18173 /* hearMyVoiceTests.swift */; };
 		BD60D2B528986F7500B18173 /* hearMyVoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60D2B428986F7500B18173 /* hearMyVoiceUITests.swift */; };
 		BD60D2B728986F7500B18173 /* hearMyVoiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60D2B628986F7500B18173 /* hearMyVoiceUITestsLaunchTests.swift */; };
+		BD60D2C4289AB79C00B18173 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60D2C3289AB79C00B18173 /* ViewController1.swift */; };
+		BDEFCF6A289AEBAA00C2DCC8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFCF69289AEBAA00C2DCC8 /* ViewController2.swift */; };
+		BDEFCF6C289AEBDC00C2DCC8 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFCF6B289AEBDC00C2DCC8 /* ViewController3.swift */; };
+		BDEFCF6E289AF98100C2DCC8 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFCF6D289AF98100C2DCC8 /* ViewController4.swift */; };
+		BDEFCF70289AFB2100C2DCC8 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFCF6F289AFB2100C2DCC8 /* ViewController5.swift */; };
+		BDEFCF72289C189900C2DCC8 /* userInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFCF71289C189900C2DCC8 /* userInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		BD60D2B028986F7500B18173 /* hearMyVoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hearMyVoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD60D2B428986F7500B18173 /* hearMyVoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hearMyVoiceUITests.swift; sourceTree = "<group>"; };
 		BD60D2B628986F7500B18173 /* hearMyVoiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hearMyVoiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD60D2C3289AB79C00B18173 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		BDEFCF69289AEBAA00C2DCC8 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BDEFCF6B289AEBDC00C2DCC8 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		BDEFCF6D289AF98100C2DCC8 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		BDEFCF6F289AFB2100C2DCC8 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		BDEFCF71289C189900C2DCC8 /* userInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,11 @@
 		BD60D28428986F7300B18173 = {
 			isa = PBXGroup;
 			children = (
+				BDEFCF6F289AFB2100C2DCC8 /* ViewController5.swift */,
+				BDEFCF6B289AEBDC00C2DCC8 /* ViewController3.swift */,
+				BDEFCF71289C189900C2DCC8 /* userInfo.swift */,
+				BDEFCF69289AEBAA00C2DCC8 /* ViewController2.swift */,
+				BDEFCF6D289AF98100C2DCC8 /* ViewController4.swift */,
 				BD60D28F28986F7300B18173 /* hearMyVoice */,
 				BD60D2A928986F7500B18173 /* hearMyVoiceTests */,
 				BD60D2B328986F7500B18173 /* hearMyVoiceUITests */,
@@ -105,6 +122,7 @@
 				BD60D29228986F7300B18173 /* SceneDelegate.swift */,
 				BD60D29428986F7300B18173 /* ViewController.swift */,
 				BD60D29628986F7300B18173 /* Main.storyboard */,
+				BD60D2C3289AB79C00B18173 /* ViewController1.swift */,
 				BD60D29C28986F7400B18173 /* Assets.xcassets */,
 				BD60D29E28986F7400B18173 /* LaunchScreen.storyboard */,
 				BD60D2A128986F7400B18173 /* Info.plist */,
@@ -262,9 +280,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD60D29B28986F7300B18173 /* hearMyVoice.xcdatamodeld in Sources */,
+				BD60D2C4289AB79C00B18173 /* ViewController1.swift in Sources */,
 				BD60D29528986F7300B18173 /* ViewController.swift in Sources */,
+				BDEFCF6E289AF98100C2DCC8 /* ViewController4.swift in Sources */,
+				BDEFCF70289AFB2100C2DCC8 /* ViewController5.swift in Sources */,
 				BD60D29128986F7300B18173 /* AppDelegate.swift in Sources */,
 				BD60D29328986F7300B18173 /* SceneDelegate.swift in Sources */,
+				BDEFCF6C289AEBDC00C2DCC8 /* ViewController3.swift in Sources */,
+				BDEFCF72289C189900C2DCC8 /* userInfo.swift in Sources */,
+				BDEFCF6A289AEBAA00C2DCC8 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
